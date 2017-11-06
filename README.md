@@ -9,3 +9,12 @@ should be bit depth, colorspaces, number of different color channels.
 1. ColorImage.cpp is a program that takes a look at colorspace conversions in OpenCV. Run the code in ColorImage.cpp and comment on the outputs. Implement the same thing in Python and save each image.
 In this exercise, I choosed babbon.jpg to implement. After running the code, the image broken into several different colorspaces were shown. We can see 9 different outputs that are red, green, blue, Y, Cr, Cb, Hue, Saturation and value colorspaces.
 2. Print out the values of the pixel at (20,25) in the RGB, YCbCr and HSV versions of the image. What are the ranges of pixel values in each channel of each of the above mentioned colorspaces?
+RGB value:  [102 165 156]
+YCrCb value:  [155 129  98]
+hsv value:  [ 34  97 165]
+
+Ranges:All of above are 0-225.
+
+## Excercise 3
+
+
