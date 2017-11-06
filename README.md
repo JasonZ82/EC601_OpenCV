@@ -21,4 +21,12 @@ Ranges:All of above are 0-225.
 For Gaussiannoise images,the Gaussian filter works better.  
 For Salt-and-pepper images,the Median filter works better.  
 
+## Exercise 4
+1. Look at Threshold.cpp and implement the code in Python, and observe the results for different threshold values. Comment on the results.  
+The result shows the same image with different thresholds applied to its grayscaled version. We can see that different thresholds highlight/decimate certain features of the image (ex: thresholded image keeps the face relatively intact but the nose features are completely gone). We also see that Adaptive filtering keeps a lot of the same features of the original image.
 
+2. What are the disadvantages of binary threshold?  
+Binary threshold is the most common and the simplest type of thresholding, the disadvantage is we may get huge amount of loss when we use it.
+
+3. When is Adaptive Threshold useful?  
+Adaptive thresholding changes the threshold dynamically over the image. This more sophisticated version of thresholding can accommodate changing lighting conditions in the image.
